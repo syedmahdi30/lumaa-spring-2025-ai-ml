@@ -18,7 +18,7 @@ def sample_and_preprocess_dataset(input_path, output_path, sample_size=500, rand
     
     return sample_subset_df
 
-# Loads the sampled dataset from file_path and ensures missing values are handled
+# Loads the sampled dataset from file_path and makes sure that missing values are handled
 def load_sampled_dataset(file_path):
 
     df = pd.read_csv(file_path, encoding='utf-8')

@@ -6,7 +6,7 @@ def main():
     input_path = 'Data/movies_metadata.csv'
     output_path = 'Data/sampled_movies.csv'
     
-    # Sample and preprocess dataset if not already done
+    # Sample and preprocess dataset 
     sample_and_preprocess_dataset(input_path, output_path)
     
     # Load the sampled dataset
