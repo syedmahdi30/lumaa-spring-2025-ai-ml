@@ -53,4 +53,12 @@
 * Using the 20-30$ per hour on the listing my expectations are within the ranges of [$2000, $3000]
 
 
-
+**Extra Commentary**
+* When I first looked at this assignment I wasn't sure if I wanted to use TF-IDF vectors and compute cosine similarity, I thought I can implement something more efficient
+* I am currently taking a class in Natural Language Processing and we are currently learning about word2vec models
+* So at first I thought why don't I train a skip-gram model on this dataset which would most likely give me a better result than TF-IDF vectors
+* Here's why I did'nt go with that idea:
+   * Training a skip-gram model from scratch isn’t ideal given the small dataset and limited time
+* But let's say for instance that my dataset was bigger, such as the one I sampled from
+* We can absolutely use the skip-gram model to implement an even more efficient Content-Based Recommnedation System
+* Just some thoughts and I appreciate the team from Lumaa for giving out such a fun and simple challenge
