@@ -8,12 +8,12 @@
 
 **Setup**
  * Python Version: 3.10.2
- * Download Dependencies through this command: *pip install -r requirements.txt*
+ * Download Dependencies through this command: **pip install -r requirements.txt**
 
 **Running**
 * Clone the repository 
-* Make sure you cd into the right directory should be "lumma-spring-2025-ai-ml"
-* From there run this command *python3 src/main.py*
+* Make sure you cd into the right directory should be **cd lumma-spring-2025-ai-ml**
+* From there run this command **python3 src/main.py**
 
 **Results**
 
